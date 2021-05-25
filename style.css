@@ -1,0 +1,140 @@
+html {
+	font-size: 62.5%;
+}
+body {
+	background: #141414;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+
+}
+
+.clock {
+	width: 35rem;
+	height: 35rem;
+	position: relative;
+	top: calc(50% - 175px);
+	margin: 0 auto;
+	background: #141414;
+	border-radius: 50%;
+	box-shadow: 0 0 0 2rem #AFAFAF,
+		0 0 0 4.5rem #2A50A1;
+}
+
+.on-axis {
+	background: #AFAFAF;
+	padding-top: 1rem;
+	position: absolute;
+	width: 3rem;
+}
+
+.off-axis {
+	background: #AFAFAF;
+	padding-top: 0.5rem;
+	position: absolute;
+	width: 2rem;
+}
+
+.pos-1 {
+	left: 17rem;
+	top: 1rem;
+	transform: rotate(90deg);
+}
+
+.pos-2 {
+	top: 17rem;
+	left: 32rem;
+}
+
+.pos-3 {
+	left: 17rem;
+	top: 33rem;
+	transform: rotate(90deg);
+}
+
+.pos-4 {
+	top: 17rem;
+}
+
+.mid-pos-1 {
+    top: 3rem;
+    left: 26rem;
+    transform: rotate(-60deg);
+}
+
+.mid-pos-2 {
+    top: 9.5rem;
+    left: 31.5rem;
+    transform: rotate(-30deg);
+
+}
+
+.mid-pos-3 {
+	top: 25.5rem;
+	left: 31.5rem;
+	transform: rotate(30deg);
+}
+
+.mid-pos-4 {
+	top: 31.5rem;
+	left: 25.6rem;
+	transform: rotate(60deg);
+}
+
+.mid-pos-5 {
+	top: 31.1rem;
+	left: 8.5rem;
+	transform: rotate(-60deg);
+	transform-origin: right bottom;
+}
+
+.mid-pos-6 {
+	top: 25.5rem;
+	left: 2rem;
+	transform: rotate(-30deg);
+	transform-origin: right bottom;
+}
+
+.mid-pos-7 {
+	top: 8.5rem;
+	left: 1.5rem;
+	transform: rotate(30deg);
+	transform-origin: bottom left;
+}
+
+.mid-pos-8 {
+	top: 3rem;
+	left: 8rem;
+	transform: rotate(60deg);
+	transform-origin: right bottom;
+}
+
+#second {
+	width: 0.25rem;
+	padding-bottom: 12rem;
+	top: 5.6rem;
+	left: 18.35rem;
+	transform-origin: 0.125rem bottom;
+	position: absolute;
+	background:#AFAFAF;
+}
+
+#minute {
+	width: 0.25rem;
+	padding-bottom: 10rem;
+	top: 7.6rem;
+	left: 18.35rem;
+	transform-origin: 0.125rem bottom;
+	position: absolute;
+	background: #2A50A1;
+}
+
+#hour {
+	width: 0.25rem;
+	padding-bottom: 7rem;
+	top: 10.6rem;
+	left: 18.35rem;
+	transform-origin: 0.125rem bottom;
+	position: absolute;
+	background: #C14242;
+}
