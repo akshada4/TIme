@@ -114,7 +114,7 @@ body {
 	padding-bottom: 12rem;
 	top: 5.6rem;
 	left: 18.35rem;
-	transform-origin: 0.125rem bottom;
+	transform-origin: bottom;
 	position: absolute;
 	background:#AFAFAF;
 }
@@ -124,7 +124,7 @@ body {
 	padding-bottom: 10rem;
 	top: 7.6rem;
 	left: 18.35rem;
-	transform-origin: 0.125rem bottom;
+	transform-origin: bottom;
 	position: absolute;
 	background: #2A50A1;
 }
@@ -134,7 +134,7 @@ body {
 	padding-bottom: 7rem;
 	top: 10.6rem;
 	left: 18.35rem;
-	transform-origin: 0.125rem bottom;
+	transform-origin: bottom;
 	position: absolute;
 	background: #C14242;
 }
