@@ -57,8 +57,8 @@ body {
 }
 
 .mid-pos-1 {
-    top: 3rem;
-    left: 26rem;
+    top: 3.5rem;
+    left: 26.2rem;
     transform: rotate(-60deg);
 }
 
@@ -71,7 +71,7 @@ body {
 
 .mid-pos-3 {
 	top: 25.5rem;
-	left: 31.5rem;
+	left: 31.2rem;
 	transform: rotate(30deg);
 }
 
@@ -90,7 +90,7 @@ body {
 
 .mid-pos-6 {
 	top: 25.5rem;
-	left: 2rem;
+	left: 2.2rem;
 	transform: rotate(-30deg);
 	transform-origin: right bottom;
 }
